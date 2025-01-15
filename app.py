@@ -2,6 +2,7 @@ import streamlit as st
 import Pipeline as pl
 st.title("Event Extractor")
 
+result=[]
 Url = st.text_input("Enter the Url", value="", max_chars=100)
 
 age = st.slider("Select Range of Sentence", 0, 100, 2)
