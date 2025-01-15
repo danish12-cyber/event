@@ -10,6 +10,6 @@ age = st.slider("Select Range of Sentence", 0, 100, 2)
 if st.button("Extract Event"):
     result= pl.event_extract(Url, 2)
     for x in result:
-    st.write(x)
+        st.write(x)
      
 
